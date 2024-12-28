@@ -1,16 +1,20 @@
 
 Folder Information:
 
-- DataSet.csv : Dataset used for model building
-- code.ipynb : Jupyter Notebook with the code for data preprocessing, visualization and model building
-- recommend.ipynb : Jupyter Notebook with the code for recommendation system
-- app.py : Flask API
-- requirements.txt : Required libraries
-- scripts.py : Data Preprocessing and Model Building
-- README.md : Information about the API
-- rf.pkl : Random Forest Model file
-- scaler.pkl : Scaler file
-- ohe.pkl : OneHotEncoder file
+- **DataSet.csv :** Dataset used for model building
+- **code.ipynb :** Jupyter Notebook with the code for data preprocessing, visualization and model building
+- **recommend.ipynb :** Jupyter Notebook with the code for recommendation system
+- **app.py :** Flask API
+- **requirements.txt :** Required libraries
+- **scripts.py :** Data Preprocessing and Model Building
+- **README.md :** Information about the API
+- **rf.pkl :** Random Forest Model file
+- **scaler.pkl :** Scaler file
+- **ohe.pkl :** OneHotEncoder file
+
+## Data Analysis Conclusion
+
+- All the deatiled report and analysis can be found in the report.pdf file, which specifies the reason of customer churn and the recommendation system to reduce the churn rate.
 
 # API testing with Postman 
 
@@ -23,7 +27,7 @@ Folder Information:
 - step7 : Select the JSON (application/json) from the dropdown
 - step8 : Enter the input data in JSON format
 
-The following can features values can take only the following values:
+The following features can take only the following values:
 
 `gender = Male/Female`
 `payment_method = Cash/Credit Card/Bank Transfer/PayPal`
